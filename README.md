@@ -30,4 +30,4 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek ini di lokal:
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/username/vyvafilm.git
+git clone https://github.com/shovyaa/vyvafilm.git
