@@ -1,0 +1,54 @@
+ body {
+      background-color: #000;
+      color: #fff;
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .search-container {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .search-container h1 {
+      margin-bottom: 30px;
+      font-size: 24px;
+      color: #ff4d4d;
+    }
+
+    .film-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .film-card {
+      background-color: #1a1a1a;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 10px #700000cc;
+      width: 180px;
+      transition: transform 0.3s ease;
+    }
+
+    .film-card:hover {
+      transform: scale(1.05);
+    }
+
+    .film-card img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .not-found {
+      color: #ccc;
+      margin-top: 20px;
+      font-size: 16px;
+    }
+
+    .spacer {
+      height: 100px;
+    }

@@ -1,0 +1,89 @@
+.footer {
+  background: linear-gradient(to right, #2c0000, #800000);
+  padding: 30px 20px;
+  font-size: 14px;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+  color: #f0f0f0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: auto;
+  gap: 40px; /* Tambahan untuk jarak antar section */
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 220px;
+  margin: 10px;
+}
+
+.footer-section h4 {
+  margin-bottom: 12px;
+  font-weight: bold;
+  color: #ffffff;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+.footer-section a,
+.footer-section p.link a {
+  display: inline-block;
+  width: fit-content;
+  color: #f0f0f0;
+  text-decoration: none;
+  margin-bottom: 6px;
+  font-size: 14px;
+  padding: 6px 10px;
+  border-radius: 12px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.footer-section a:hover {
+  background-color: #9a1c1c;
+  color: #fff;
+}
+
+.footer-contact p {
+  margin: 6px 0;
+  cursor: pointer;
+}
+
+.footer-contact p i {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 18px;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 8px;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.footer-contact p:hover i,
+.social-icons a:hover {
+  background-color: #9a1c1c;
+  color: #fff;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 18px;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 8px;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 13px;
+  color: #ccc;
+}

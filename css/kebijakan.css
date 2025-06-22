@@ -1,0 +1,59 @@
+html, body {
+  height: 100%;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1b1b1b;
+  color: #f0f0f0;
+}
+
+/* Untuk memastikan tinggi kontainer mencakup konten penuh */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Bagian kontennya */
+.tentang-container {
+  max-width: 800px;
+  margin: 60px auto 100px;
+  padding: 30px 25px;
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+  line-height: 1.8;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.tentang-container h1 {
+  font-size: 34px;
+  margin-bottom: 25px;
+  color: #ff4c4c;
+  border-bottom: 2px solid #ff4c4c;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.tentang-container p {
+  font-size: 18px;
+  color: #ddd;
+  margin-top: 20px;
+}
+
+.tentang-container strong {
+  background-color: #333;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+
+.spacer {
+  height: 80px;
+}
+
+/* Pastikan footer tidak menumpuk konten jika digunakan */
+footer {
+  margin-top: auto;
+}

@@ -1,0 +1,74 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #1b1b1b;
+  margin: 0;
+  padding: 0;
+  color: #f0f0f0;
+}
+
+.kritik-form {
+  max-width: 700px;
+  margin: 50px auto;
+  background: #1e1e1e;
+  padding: 30px;
+  border-radius: 12px;
+  color: #fff;
+}
+
+.kritik-form h2 {
+  margin-bottom: 20px;
+  color: #ffdddd;
+  text-align: center;
+}
+
+.kritik-form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.kritik-form input,
+.kritik-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: none;
+  background: #2a2a2a;
+  color: #fff;
+  font-size: 16px;
+}
+
+.kritik-form button {
+  margin-top: 20px;
+  padding: 12px 20px;
+  background-color: #ff4c4c;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.kritik-form button:hover {
+  background-color: #ff1c1c;
+}
+
+.success-message {
+  margin-top: 20px;
+  background: #2e7d32;
+  padding: 10px;
+  border-radius: 6px;
+  color: #fff;
+  text-align: center;
+}
+
+.error-message {
+  margin-top: 20px;
+  background: #c62828;
+  padding: 10px;
+  border-radius: 6px;
+  color: #fff;
+  text-align: center;
+}
